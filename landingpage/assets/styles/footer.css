@@ -1,0 +1,16 @@
+footer {
+    background-color: #d87c29;
+}
+
+#footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright {
+    margin-top: 12px;
+    font-weight: 500;
+    color: #1d1d1d;
+}
