@@ -1,0 +1,269 @@
+@import url('ŕoot.css');
+
+/*HEADER STYLES*/
+
+#menu {
+    width: 100%;
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#list {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+#list a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.search a {
+    width: 80px;
+    font-size: 16px;
+    font-weight: 500; 
+    color: var(--color-2);
+    margin-right: 10%;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.search.active a {
+    color: var(--color-1);
+    border-bottom: 3px solid var(--color-1);
+    border-radius: 2px;
+ }
+
+.analytics {
+    width: 16px;
+    height: 14px;
+    background-color: transparent;
+}
+
+a {
+    cursor: pointer;
+    color: var(--color-1);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*BODY*/
+
+.artists h1 {
+    font-family: var(--font-main);
+    overflow-y: hidden;
+    font-weight: 600;
+}
+
+.artists h3 {
+    font-family: var(--font-main);
+}
+
+.art {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artists .card {
+  display: flex;
+  justify-content: space-between;   
+}
+
+.gallery-card {
+    text-align: center;
+    font-size: 35px;
+    overflow-y: hidden;
+    color: var(--color-1);
+    font-family: var(--font-main);
+}
+
+.video-container {
+    display: flex;
+    margin: 4px 60px;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-container iframe {
+    border-radius: 10px;
+}
+
+.video-container p {
+    padding: 0;
+    margin: 2px;
+    font-weight: 400;
+}
+
+div {
+    margin: 10px;
+}
+
+.news h3 {
+    font-size: 28px;
+    overflow-y: hidden;
+    font-weight: 600;
+    color: var(--color-1);
+    font-family: var(--font-main);
+}
+
+#image-2 {
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+    margin: 9px 18px;
+}
+
+.home p {
+    font-size: 16px;
+    margin: 8px 16px;
+    color: var(--footer-color-2);
+    font-family: var(--font-main);
+}
+
+.card small {
+    font-size: 12px;
+}
+
+.news span {
+    margin: 2px 5px;
+    color: var(--copy-color);
+    font-family: var(--font-2);
+}
+
+.news span a {
+    color: var(--color-2);
+    font-size: 14px;
+    font-family: var(--font-2);
+    text-decoration: none;
+}
+
+/*FOOTER STYLES*/
+
+.location h2 {
+    font-family: var(--font-2);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+ .days{
+    font-size: 16px;
+    padding: 5px 0;
+    color: var(--color-2);
+    font-family: var(--font-2);
+}
+
+button {
+    background-color: var(--color-2);
+    padding: 8px 60px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button i {
+    color: var(--footer-color-2);
+    font-size: 15px;
+}
+
+.news h3 {
+    font-family: var(--font-main);
+}
+
+.news p {
+    font-family: var(--font-main);
+    font-size: 16px;
+}
+
+.social-media {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: var(--footer-color-1);
+}
+
+.social-media p {
+    color: var(--copy-color);
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.social-media span {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--copy-color);
+}
+
+.social-media button {
+    padding: 0;
+    background-color: transparent;
+}
+
+.social-media button i {
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 8px;
+    color: var(--copy-color);
+}
+
+/*BOOTSTRAP STYLE*/
+
+#carouselExample {
+    margin: 0;
+}
+
+.carousel-item img {
+    height: 750px;
+}
+
+.artists .card-title {
+    font-size: 20px;
+    font-family: var(--font-main);
+}
+
+.artists .card-subtitle {
+    font-size: 14px;
+    font-family: var(--font-2);
+    color: var(--color-2);
+}
+
+.artists .card-text {
+    color: var(--color-1);
+    font-family: var(--font-main);
+}
+
+.artists .card-link {
+    color: var(--copy-color);
+    font-size: 16px;
+    font-family: var(--font-2);
+}
+
+.about .card {
+    color: var(--color-1);
+    padding: 0;
+    width: 30%;
+    cursor: pointer;
+    margin: 0 100px;
+}
+
+.card-body h3 {
+    font-family: var(--font-main);
+}
+
+.card-body p {
+    color: var(--footer-color-2);
+    font-family: var(--font-2);
+}
+
+.card-body small {
+    color: var(--copy-color);
+}
+
